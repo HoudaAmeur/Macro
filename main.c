@@ -1,7 +1,7 @@
 /**
   ******************************************************************************
   * @file    main.c
-  * @author  Houda Ameur
+  * @author  Maryem ben Hadj Sghaier
   * @brief   How to develop structured code 
   * @version V1.0.0
   * @date    22-10-2022
