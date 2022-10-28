@@ -11,7 +11,7 @@
 /* Private function prototypes -----------------------------------------------*/
 
 /* Macros --------------------------------------------------------------------*/
-#define INTEL 1
+#define INTEL 1 
 //#define OTHERS
 #define NOINTEL 0
 #define A 1
@@ -22,7 +22,7 @@
 #define __MINCOMPARE(X,Y) (INTEL)?((X<Y)? X: Y):((X>Y)? X: Y)
 //Define a multiplicatin equation A*B=3
 #define __MULEQUATION(X,Y) (NOINTEL)?(X+Y):(X*Y)
-//Find the minimum value that is B= 3
+//Find the maximum value that is B= 3
 #define __MAXCOMPARE(X,Y) (NOINTEL)?((X<Y)? X: Y):((X>Y)? X: Y)
 
 /* Private functions ---------------------------------------------------------*/
